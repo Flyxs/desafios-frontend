@@ -31,7 +31,7 @@ Para ganhar o Acesso Liberado, o código de vocês precisa resistir às auditori
 | Auditoria | Nome | O que ela testa |
 | :--- | :--- | :--- |
 | 1 | Código Limpo | O uso exclusivo de **HTML e CSS puro**. É estritamente proibido o uso de JavaScript ou frameworks (como Tailwind ou Bootstrap). Códigos prontos geram rastros. |
-| 2 | O Estilo Compartilhado | A equipe inteira deve usar **apenas um único arquivo `style.css`**. Todas as fichas devem puxar o visual desse mesmo arquivo. |
+| 2 | A Identidade Visual | Todas as fichas devem apresentar o mesmo padrão e consistência visual. |
 | 3 | A Rota Segura | A navegação. Os botões de conexão devem funcionar perfeitamente usando apenas **caminhos relativos** (ex: `href="membro-b.html"`). |
 | 4 | Dados Obrigatórios | A presença obrigatória da foto, nome, cargo, 3 contatos e os botões de ligação com a equipe em todos os perfis. |
 | ?&$ | A Varredura Final | Auditorias ocultas testando a organização do código, alinhamento e como vocês trabalharam juntos no GitHub. |
