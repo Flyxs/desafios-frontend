@@ -49,13 +49,14 @@ Para ganhar o Acesso Liberado, o código de vocês precisa resistir às auditori
 ---
 
 ### 🧭 Como operar, passo a passo
-1. **Clone a Base:** Todos os membros da equipe devem clonar este repositório para os seus computadores.
-2. **Crie a Rota da Equipe (Branch):** No terminal, crie uma branch específica para a sua equipe a partir da `main`. Padrão: `git checkout -b equipe-X` (onde X é o número da sua equipe). **Se tiverem dúvidas nessa etapa, peçam ajuda para o assessor responsável.**
-3. **Crie o seu Diretório:** Dentro da pasta `entregas/`, crie uma pasta com o nome da sua equipe (ex: `entregas/equipe-X/`). É exclusivamente dentro desta pasta que o código de vocês deve existir. **Não alterem o README ou arquivos fora da pasta de vocês.**
-4. **Dividam as tarefas:** Cada membro fica responsável por codificar o seu próprio perfil (`.html`). O painel inicial (`index.html`) e o visual (`style.css`) podem ser feitos juntos ou divididos.
-5. **Subam para o GitHub:** Façam os commits com cuidado. Se houver conflitos (*Merge Conflict*), resolvam em equipe.
-6. **Preencham o Relatório:** Coloquem o arquivo `ENTREGA.md` preenchido dentro da pasta da equipe.
-7. **Abram o Pull Request:** Abram um único Pull Request da branch `equipe-X` para a `main`. Coloque o título `Front-end - Desafio 01: Ficha Secreta` e marque seus parceiros. **Não façam o merge.** Quem faz é o assessor responsável.
+1. **O Fork (A Cópia Segura):** Apenas **um membro** da equipe (o Agente Anfitrião) deve acessar o repositório original da missão e clicar no botão "Fork" (no canto superior direito do GitHub). Isso criará uma cópia exata do projeto no perfil pessoal dele.
+2. **Liberar o Acesso:** O Agente Anfitrião deve ir nas configurações desse Fork no GitHub (*Settings > Collaborators*) e adicionar o(s) parceiro(s) de equipe. Os convidados precisam aceitar o convite para poderem editar o código.
+3. **Clone a Base:** Todos os membros da equipe devem clonar **o Fork** (o repositório que agora está no perfil do Agente Anfitrião) para os seus computadores. Cuidado para não clonarem o repositório original da EJ!
+4. **Crie o seu Diretório:** Dentro da pasta `entregas/` do projeto clonado, criem uma pasta com o nome da equipe de vocês (ex: `entregas/equipe-X/`). É exclusivamente dentro desta pasta que o código de vocês deve existir. **Não alterem o README principal ou arquivos fora da pasta de vocês.**
+5. **Dividam as tarefas:** Cada membro fica responsável por codificar e estilizar o seu próprio perfil (`.html` e `.css`). O painel inicial (`index.html`) pode ser feito em conjunto.
+6. **Subam para o Fork:** Façam os commits com cuidado e enviem as alterações (`git push`) para o Fork. Se dois agentes alterarem o mesmo arquivo e houver conflito (*Merge Conflict*), resolvam em equipe.
+7. **Preencham o Relatório:** Façam uma cópia do modelo `ENTREGA.md` original, preencham e coloquem dentro da pasta da equipe de vocês.
+8. **A Entrega Oficial (Pull Request):** Com o código funcionando perfeitamente no Fork de vocês, abram um único Pull Request apontando a entrega para a branch `main` do **repositório original da Agência**. Coloque o título `Front-end - Desafio 01: Ficha Secreta` e marque seus parceiros na descrição. **Não façam o merge.** Quem avalia e aceita a missão é o assessor responsável.
 
 ---
 
