@@ -6,12 +6,16 @@ O antigo sistema da nossa Agência foi comprometido. Um ataque cibernético derr
 
 Para evitar novos ataques, o Comando tomou uma decisão drástica: não usaremos sistemas complexos prontos. A nova rede de identificação será construída puramente com os fundamentos da web, de forma direta e invisível para os inimigos.
 
+---
+
 ### 🧙 O Capítulo
 A tela do seu computador pisca e a voz do Comando da Agência ecoa no fone de ouvido. 
 
 "Vocês foram ativados. A Agência precisa que vocês reconstruam o banco de identidades da equipe. Uma ficha de perfil isolada é um alvo fácil. A verdadeira segurança está no trabalho da sua equipe. 
 
 Vocês vão criar as **Fichas Secretas** da equipe de vocês. E lembrem-se: os arquivos devem estar interligados por rotas seguras. Se eu abrir o seu perfil, preciso conseguir acessar a página dos seus parceiros com um único clique."
+
+---
 
 ### 🎯 Sua missão
 A sua equipe (dupla ou trio) deve construir os perfis de identificação na nossa nova rede. O sistema será composto por um painel inicial e uma página de Perfil individual para cada membro, **todas interligadas**.
@@ -24,6 +28,8 @@ A sua equipe (dupla ou trio) deve construir os perfis de identificação na noss
 
 **Regra de Ouro (Camuflagem Padrão):** 
 Vocês têm liberdade criativa total para a identidade visual das fichas. Podem seguir um tema de espionagem, usar as cores da Orc'estra ou inventar um estilo próprio. A única exigência é que a identidade visual escolhida seja consistente entre todos os membros da equipe. A escolha das 3 redes sociais e a foto também são livres.
+
+---
 
 ### ⚔️ Protocolos de Segurança (As Restrições)
 Para ganhar o Acesso Liberado, o código de vocês precisa resistir às auditorias do Comando:
@@ -81,6 +87,8 @@ desafio-frontend-01/
         └── membro-c.html     ← Perfil do Agente C (linka para A e B)
 ```
 
+---
+
 ### 📜 Transmissão de Dicas (abra só em emergências)
 <details>
   <summary><strong>Dica 1: O Alinhamento Perfeito</strong></summary>
@@ -94,6 +102,8 @@ desafio-frontend-01/
   Vocês terão conflitos na hora de juntar o código no mesmo `style.css`. O Git mostrará textos como `<<<<<<< HEAD`. Não se desesperem, apenas leiam o código, apaguem as marcações estranhas e mantenham a formatação correta antes de salvar.
 </details>
 
+---
+
 ### 📏 Regras da Missão
 - **Proibido:**
     - Usar JavaScript.
@@ -105,6 +115,8 @@ desafio-frontend-01/
 - **Ferramentas de IA:** Permitidas para tirar dúvidas (ex: "Como funciona a margem no CSS?"). Pedir o código pronto destrói o propósito de aprender, e a Varredura Final descobrirá se isso aconteceu.
 
 - Vocês precisam saber explicar qualquer linha do seu código se o assessor perguntar.
+
+---
 
 ### 🏆 Recompensas e pontuação
 O Acesso Liberado só é concedido se a equipe passar nas 4 auditorias visíveis e na Varredura Final.
@@ -126,6 +138,8 @@ Além disso, cada agente ganha Pontos de Inteligência para o ranking:
 - Todo membro recebe 3 pontos fortes e 3 pontos de melhoria como comentários no Pull Request.
 
 Boa sorte, agentes. O Comando aguarda os perfis. 🌐🕵️‍♂️
+
+---
 
 ### 📝 Modelo do Relatório ENTREGA.md
 Copiem o modelo abaixo para a pasta da equipe e preencham juntos.
