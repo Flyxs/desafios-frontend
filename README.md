@@ -29,6 +29,14 @@ A sua equipe (dupla ou trio) deve construir os perfis de identificação na noss
 **Regra de Ouro (Camuflagem Padrão):** 
 Vocês têm liberdade criativa total para a identidade visual das fichas. Podem seguir um tema de espionagem, usar as cores da Orc'estra ou inventar um estilo próprio. A única exigência é que a identidade visual escolhida seja consistente entre todos os membros da equipe. A escolha das 3 redes sociais e a foto também são livres.
 
+<div align="center">
+  <img src="assets/dupla-inicio.png" width="400" />
+  <img src="assets/dupla-perfil.png" width="400" />
+  <br />
+  <img src="assets/trio-inicio.png" width="400" />
+  <img src="assets/trio-perfil.png" width="400" />
+</div>
+
 ---
 
 ### ⚔️ Protocolos de Segurança (As Restrições)
