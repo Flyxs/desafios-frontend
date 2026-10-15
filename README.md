@@ -42,6 +42,17 @@ Para ganhar o Acesso Liberado, o código de vocês precisa resistir às auditori
 
 ---
 
+### 🧭 Como operar, passo a passo
+1. **Clone a Base:** Todos os membros da equipe devem clonar este repositório para os seus computadores.
+2. **Crie a Rota da Equipe (Branch):** No terminal, crie uma branch específica para a sua equipe a partir da `main`. Padrão: `git checkout -b equipe-X` (onde X é o número da sua equipe). **Se tiverem dúvidas nessa etapa, peçam ajuda para o assessor responsável.**
+3. **Crie o seu Diretório:** Dentro da pasta `entregas/`, crie uma pasta com o nome da sua equipe (ex: `entregas/equipe-X/`). É exclusivamente dentro desta pasta que o código de vocês deve existir. **Não alterem o README ou arquivos fora da pasta de vocês.**
+4. **Dividam as tarefas:** Cada membro fica responsável por codificar o seu próprio perfil (`.html`). O painel inicial (`index.html`) e o visual (`style.css`) podem ser feitos juntos ou divididos.
+5. **Subam para o GitHub:** Façam os commits com cuidado. Se houver conflitos (*Merge Conflict*), resolvam em equipe.
+6. **Preencham o Relatório:** Coloquem o arquivo `ENTREGA.md` preenchido dentro da pasta da equipe.
+7. **Abram o Pull Request:** Abram um único Pull Request da branch `equipe-X` para a `main`. Coloque o título `Front-end - Desafio 01: Ficha Secreta` e marque seus parceiros. **Não façam o merge.** Quem faz é o assessor responsável.
+
+---
+
 ### 🗺️ Conhecendo o seu projeto
 No repositório do desafio, a estrutura da pasta de vocês deve ficar exatamente assim:
 
@@ -69,15 +80,6 @@ desafio-frontend-01/
         ├── membro-b.html     ← Perfil do Agente B (linka para A e C)
         └── membro-c.html     ← Perfil do Agente C (linka para A e B)
 ```
-
-### 🧭 Como operar, passo a passo
-1. **Clone a Base:** Todos os membros da equipe devem clonar este repositório para os seus computadores.
-2. **Crie a Rota da Equipe (Branch):** No terminal, crie uma branch específica para a sua equipe a partir da `main`. Padrão: `git checkout -b equipe-X` (onde X é o número da sua equipe). **Se tiverem dúvidas nessa etapa, peçam ajuda para o assessor responsável.**
-3. **Crie o seu Diretório:** Dentro da pasta `entregas/`, crie uma pasta com o nome da sua equipe (ex: `entregas/equipe-X/`). É exclusivamente dentro desta pasta que o código de vocês deve existir. **Não alterem o README ou arquivos fora da pasta de vocês.**
-4. **Dividam as tarefas:** Cada membro fica responsável por codificar o seu próprio perfil (`.html`). O painel inicial (`index.html`) e o visual (`style.css`) podem ser feitos juntos ou divididos.
-5. **Subam para o GitHub:** Façam os commits com cuidado. Se houver conflitos (*Merge Conflict*), resolvam em equipe.
-6. **Preencham o Relatório:** Coloquem o arquivo `ENTREGA.md` preenchido dentro da pasta da equipe.
-7. **Abram o Pull Request:** Abram um único Pull Request da branch `equipe-X` para a `main`. Coloque o título `Front-end - Desafio 01: Ficha Secreta` e marque seus parceiros. **Não façam o merge.** Quem faz é o assessor responsável.
 
 ### 📜 Transmissão de Dicas (abra só em emergências)
 <details>
