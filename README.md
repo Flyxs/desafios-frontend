@@ -64,7 +64,7 @@ Para ganhar o Acesso Liberado, o código de vocês precisa resistir às auditori
 5. **Dividam as tarefas:** Cada membro fica responsável por codificar e estilizar o seu próprio perfil (`.html` e `.css`). O painel inicial (`index.html`) pode ser feito em conjunto.
 6. **Subam para o Fork:** Façam os commits com cuidado e enviem as alterações (`git push`) para o Fork. Se dois agentes alterarem o mesmo arquivo e houver conflito (*Merge Conflict*), resolvam em equipe.
 7. **Preencham o Relatório:** Façam uma cópia do modelo `ENTREGA.md` original, preencham e coloquem dentro da pasta da equipe de vocês.
-8. **A Entrega Oficial (Pull Request):** Com o código funcionando perfeitamente no Fork de vocês, abram um único Pull Request apontando a entrega para a branch `main` do **repositório original da Agência**. Coloque o título `Front-end - Desafio 01: Ficha Secreta` e marque seus parceiros na descrição. **Não façam o merge.** Quem avalia e aceita a missão é o assessor responsável.
+8. **A Entrega Oficial (Pull Request):** Com o código funcionando perfeitamente no Fork de vocês, abram um único Pull Request apontando a entrega para a branch `main` do **repositório original da Agência**. Coloque o título `[Front-end] - Desafio 01: Ficha Secreta` e marque seus parceiros na descrição. **Não façam o merge.** Quem avalia e aceita a missão é o assessor responsável.
 
 ---
 
@@ -95,21 +95,6 @@ desafio-frontend-01/
         ├── membro-b.html     ← Perfil do Agente B (linka para A e C)
         └── membro-c.html     ← Perfil do Agente C (linka para A e B)
 ```
-
----
-
-### 📜 Transmissão de Dicas (abra só em emergências)
-<details>
-  <summary><strong>Dica 1: O Alinhamento Perfeito</strong></summary>
-
-  Para centralizar o cartão de vocês no meio da tela, estudem como usar `display: flex`, `justify-content: center` e `align-items: center` na tag `body`.
-</details>
-
-<details>
-  <summary><strong>Dica 2: Conflitos no GitHub</strong></summary>
-
-  Vocês terão conflitos na hora de juntar o código no mesmo `style.css`. O Git mostrará textos como `<<<<<<< HEAD`. Não se desesperem, apenas leiam o código, apaguem as marcações estranhas e mantenham a formatação correta antes de salvar.
-</details>
 
 ---
 
