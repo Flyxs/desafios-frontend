@@ -57,14 +57,14 @@ Para ganhar o Acesso Liberado, o código de vocês precisa resistir às auditori
 ---
 
 ### 🧭 Como operar, passo a passo
-1. **O Fork (A Cópia Segura):** Apenas **um membro** da equipe (o Agente Anfitrião) deve acessar o repositório original da missão e clicar no botão "Fork" (no canto superior direito do GitHub). Isso criará uma cópia exata do projeto no perfil pessoal dele.
-2. **Liberar o Acesso:** O Agente Anfitrião deve ir nas configurações desse Fork no GitHub (*Settings > Collaborators*) e adicionar o(s) parceiro(s) de equipe. Os convidados precisam aceitar o convite para poderem editar o código.
-3. **Clone a Base:** Todos os membros da equipe devem clonar **o Fork** (o repositório que agora está no perfil do Agente Anfitrião) para os seus computadores. Cuidado para não clonarem o repositório original da EJ!
-4. **Crie o seu Diretório:** Dentro da pasta `entregas/` do projeto clonado, criem uma pasta com o nome da equipe de vocês (ex: `entregas/equipe-X/`). É exclusivamente dentro desta pasta que o código de vocês deve existir. **Não alterem o README principal ou arquivos fora da pasta de vocês.**
-5. **Dividam as tarefas:** Cada membro fica responsável por codificar e estilizar o seu próprio perfil (`.html` e `.css`). O painel inicial (`index.html`) pode ser feito em conjunto.
-6. **Subam para o Fork:** Façam os commits com cuidado e enviem as alterações (`git push`) para o Fork. Se dois agentes alterarem o mesmo arquivo e houver conflito (*Merge Conflict*), resolvam em equipe.
-7. **Preencham o Relatório:** Façam uma cópia do modelo `ENTREGA.md` original, preencham e coloquem dentro da pasta da equipe de vocês.
-8. **A Entrega Oficial (Pull Request):** Com o código funcionando perfeitamente no Fork de vocês, abram um único Pull Request apontando a entrega para a branch `main` do **repositório original da Agência**. Coloque o título `[Front-end] - Desafio 01: Ficha Secreta` e marque seus parceiros na descrição. **Não façam o merge.** Quem avalia e aceita a missão é o assessor responsável.
+
+1. **A Base de Operações:** Como ensinado no `README.md` principal do repositório, vocês já devem ter o repositório "forkado". Definam quem será o "Dono do Fork" desta semana e adicionem o(s) parceiro(s) como colaborador(es) no GitHub.
+2. **Sincronize e Crie a Rota:** O Dono do Fork deve sincronizar a base para puxar este desafio novo. Em seguida, a partir da `main` atualizada, criem a branch da missão (ex: `git checkout -b desafio01`).
+3. **Acesse a Pasta de Entrega:** No terminal, entrem no diretório do desafio e naveguem até a pasta de entrega (ex: `cd desafio01/entrega/`). É **exclusivamente** aqui dentro que o código de vocês deve existir. Não alterem o `README.md` da missão nem a pasta de `assets/` originais.
+4. **Dividam as tarefas:** Cada membro fica responsável por codificar e estilizar o seu próprio perfil (`.html` e `.css`) dentro da pasta `entrega/`. O painel inicial (`index.html`) deve ser feito em conjunto.
+5. **Subam para o Fork:** Façam commits pequenos e enviem as alterações (`git push origin desafio01`) para o Fork compartilhado da equipe. Se os dois alterarem o `index.html` ao mesmo tempo e der conflito (*Merge Conflict*), resolvam juntos.
+6. **Preencham o Relatório:** Abram o arquivo modelo `ENTREGA.md` (que já está esperando vocês dentro da pasta `entrega/`), preencham com os dados e reflexões da equipe, e façam o commit dele.
+7. **A Entrega Oficial (Pull Request):** Com o código rodando perfeitamente, abram um único Pull Request apontando a branch do desafio de vocês para a branch `main` do **repositório original da Agência**. O título deve ser `[Desafio 01] Nome 1 e Nome 2`. **Não façam o merge.** Quem avalia a missão e fecha o PR é a DiProj.
 
 ---
 
@@ -75,25 +75,23 @@ No repositório do desafio, a estrutura da pasta de vocês deve ficar exatamente
 ```text
 desafio-frontend-01/
 └── entregas/
-    └── equipe-X
-        ├── ENTREGA.md
-        ├── style.css         ← O estilo do projeto (se forem usar mais de um arquivo, criem uma pasta de estilos)
-        ├── index.html        ← Painel inicial (botões para os 2 membros)
-        ├── membro-a.html     ← Perfil do Agente A (linka para o Agente B)
-        └── membro-b.html     ← Perfil do Agente B (linka para o Agente A)
+    ├── ENTREGA.md
+    ├── style.css         ← O estilo do projeto (se forem usar mais de um arquivo, criem uma pasta de estilos)
+    ├── index.html        ← Painel inicial (botões para os 2 membros)
+    ├── membro-a.html     ← Perfil do Agente A (linka para o Agente B)
+    └── membro-b.html     ← Perfil do Agente B (linka para o Agente A)
 ```
 
 **Se a sua equipe é um TRIO:**
 ```text
 desafio-frontend-01/
 └── entregas/
-    └── equipe-X/
-        ├── ENTREGA.md
-        ├── style.css         ← O estilo do projeto (se forem usar mais de um arquivo, criem uma pasta de estilos)
-        ├── index.html        ← Painel inicial (botões para os 3 membros)
-        ├── membro-a.html     ← Perfil do Agente A (linka para B e C)
-        ├── membro-b.html     ← Perfil do Agente B (linka para A e C)
-        └── membro-c.html     ← Perfil do Agente C (linka para A e B)
+    ├── ENTREGA.md
+    ├── style.css         ← O estilo do projeto (se forem usar mais de um arquivo, criem uma pasta de estilos)
+    ├── index.html        ← Painel inicial (botões para os 3 membros)
+    ├── membro-a.html     ← Perfil do Agente A (linka para B e C)
+    ├── membro-b.html     ← Perfil do Agente B (linka para A e C)
+    └── membro-c.html     ← Perfil do Agente C (linka para A e B)
 ```
 
 ---
