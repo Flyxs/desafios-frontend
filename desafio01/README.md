@@ -1,7 +1,7 @@
 # 🕵️ Operação Ficha Secreta
 **Desafio 01 | Trilha Front-end | Orc'estra Gamificação**
 
-**Prazo: 25 de Outubro, 23:59**
+**Prazo: 25 de Outubro**
 
 ### 📜 Anteriormente
 O antigo sistema da nossa Agência foi comprometido. Um ataque cibernético derrubou nossos servidores na noite passada e agora nossos agentes em campo estão isolados, incapazes de identificar quem é aliado e sem meios para acionar suas equipes.
