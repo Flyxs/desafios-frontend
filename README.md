@@ -121,7 +121,7 @@ git add .
 git commit -m "feat: implementa a primeira funcionalidade"
 ```
 
-Antes de cada commit, rode `git status` e confira que você **não está versionando** pastas geradas (`target/`) nem arquivos da IDE.
+Antes de cada commit, rode `git status` e confira que você **não está versionando** pastas de dependência (`node_modules/`) nem arquivos da IDE.
 
 ### 4.4 Envie a sua branch
 
@@ -173,7 +173,6 @@ O assessor vai revisar o código, rodar os testes oficiais, comentar e depois **
 | Um PR por desafio | Sempre da branch do desafio para a `main` original |
 | O que mexer | **Só** a pasta `desafioNN/` do desafio em andamento |
 | O que nunca mexer | A `main` do seu fork, o `README.md` da raiz, o `.gitignore`, as pastas de outros desafios e os arquivos de teste fornecidos (a menos que o enunciado diga o contrário) |
-| Nunca versionar | `target/`, `.idea/`, `.classpath`, `.project`, `.settings/`, `*.class`, senhas e tokens |
 
 ### Padrão de commits
 
@@ -181,11 +180,11 @@ Formato: `tipo: descrição curta no presente`
 
 | Tipo | Quando usar | Exemplo |
 |---|---|---|
-| `feat` | implementou algo novo | `feat: trata empate de tamanho` |
-| `fix` | corrigiu um erro | `fix: devolve vazio para lista vazia` |
-| `test` | adicionou ou ajustou testes seus | `test: adiciona caso com nomes repetidos` |
+| `feat` | implementou algo novo | `feat: adiciona barra de busca responsiva` |
+| `fix` | corrigiu um erro | `fix: corrige alinhamento da foto no mobile` |
+| `test` | adicionou ou ajustou testes seus | `test: adiciona teste de clique no botão` |
 | `docs` | relatório, anotações | `docs: preenche ENTREGA.md` |
-| `refactor` | melhorou o código sem mudar o comportamento | `refactor: extrai metodo auxiliar` |
+| `refactor` | melhorou o código sem mudar o comportamento | `refactor: reorganiza variáveis de cor no CSS` |
 
 Mensagens como `ajustes`, `final` ou `asdf` perdem pontos.
 
@@ -206,7 +205,7 @@ Mensagens como `ajustes`, `final` ou `asdf` perdem pontos.
 |---|---|
 | Fiz commits direto na `main` do meu fork | Veja o bloco de recuperação logo abaixo |
 | `git merge --ff-only upstream/main` deu erro | A sua `main` divergiu da original. Veja o bloco de recuperação logo abaixo |
-| O PR mostra arquivos de mais (como `target/`) | Rode `git rm -r --cached desafio01/target`, depois `git commit -m "fix: remove arquivos gerados"` e `git push`. Confira se o `.gitignore` da raiz está no seu fork |
+| O PR mostra arquivos de mais (como `node_modules`) | Rode `git rm -r --cached desafioNN/node_modules`, depois `git commit -m "fix: remove arquivos gerados"` e `git push`. Confira se o `.gitignore` da raiz está no seu fork |
 | Abri o PR com a base ou a branch erradas | Feche o PR (**Close pull request**) e abra outro seguindo a seção 4.5 |
 | Mexi em arquivo de outro desafio | Restaure o arquivo: `git checkout main -- caminho/do/arquivo`, depois commit e push |
 | Não aparece a pasta do desafio novo | Sincronize o fork de novo (seção 4.1) e confira com `git log --oneline -3` |
