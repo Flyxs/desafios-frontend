@@ -71,9 +71,19 @@ Se `origin` e `upstream` estiverem apontando para o mesmo endereço, você clono
 
 ---
 
-## 4. Passo 2: Ciclo de cada semana
+## 4. Passo 2: Ciclo de cada desafio
 
-### 4.1 Sincronize o seu fork
+### 4.1 A Dinâmica da Dupla/Trio (Importante!)
+
+Como as equipes mudam a cada desafio, a primeira coisa a fazer na semana é decidir **de quem será o Fork utilizado para a entrega**. 
+
+1. **Escolha o Fork base:** Definam quem será o "Dono do Fork" da semana e quem serão os "Colaboradores".
+2. **Convite no GitHub:** O Dono do Fork abre o seu repositório no GitHub, vai em **Settings > Collaborators > Add people** e adiciona o usuário dos parceiros.
+3. **Acesso:** Os colaboradores aceitam o convite (chega por e-mail ou nas notificações do GitHub) e fazem o clone do Fork do colega em suas máquinas:
+   `git clone https://github.com/<usuario-do-dono-do-fork>/<repositorio>.git`
+4. **Trabalho em equipe:** A partir daí, todos terão acesso de escrita. Vocês podem sincronizar, criar branches, fazer commits e dar `push` juntos no mesmo repositório.
+
+### 4.2 Sincronize o seu fork
 
 **Opção A: pelo site (a mais simples)**
 
@@ -99,7 +109,7 @@ Depois de sincronizar, a pasta do desafio novo (por exemplo, `desafio02/`) deve 
 
 Se o `--ff-only` der erro, veja a seção 7.
 
-### 4.2 Crie a branch do desafio
+### 4.3 Crie a branch do desafio
 
 Sempre a partir da `main` sincronizada:
 
@@ -109,7 +119,7 @@ git checkout -b desafio01
 
 O nome da branch é `desafio` mais o número com dois dígitos (`desafio01`, `desafio02`, e assim por diante).
 
-### 4.3 Resolva o desafio
+### 4.4 Resolva o desafio
 
 1. Entre na pasta do desafio: `cd desafio01`.
 2. Leia o **`README.md` da pasta**.
@@ -123,13 +133,13 @@ git commit -m "feat: implementa a primeira funcionalidade"
 
 Antes de cada commit, rode `git status` e confira que você **não está versionando** pastas de dependência (`node_modules/`) nem arquivos da IDE.
 
-### 4.4 Envie a sua branch
+### 4.5 Envie a sua branch
 
 ```bash
 git push -u origin desafio01
 ```
 
-### 4.5 Abra o Pull Request
+### 4.6 Abra o Pull Request
 
 1. Abra o **seu fork** no GitHub. Vai aparecer um aviso amarelo com o botão **Compare & pull request**. Clique nele.
 2. Confira os quatro campos no topo da tela:
@@ -146,7 +156,7 @@ git push -u origin desafio01
 5. Clique em **Create pull request**.
 6. Abra a aba **Files changed** e confira: só devem aparecer arquivos da pasta do **seu** desafio. Se aparecerem arquivos a mais, veja a seção 7.
 
-### 4.6 Ajustes depois do feedback
+### 4.7 Ajustes depois do feedback
 
 Se o assessor pedir mudanças, **não abra outro PR**. Faça novos commits na mesma branch e envie:
 
@@ -158,7 +168,7 @@ git push
 
 O PR se atualiza sozinho.
 
-### 4.7 O seu PR não será mesclado (e isso é normal)
+### 4.8 O seu PR não será mesclado (e isso é normal)
 
 O assessor vai revisar o código, rodar os testes oficiais, comentar e depois **fechar** o PR. O PR é a **entrega**, não precisa virar parte da `main`. Isso evita que as soluções de todos os membros entrem na mesma pasta e causem conflitos.
 
