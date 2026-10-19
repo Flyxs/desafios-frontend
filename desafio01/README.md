@@ -134,7 +134,6 @@ Boa sorte, agentes. O Comando aguarda os perfis. 🌐🕵️‍♂️
 ---
 
 ### 📝 Modelo do Relatório ENTREGA.md
-Copiem o modelo abaixo para a pasta da equipe e preencham juntos.
 
 ```markdown
 # Relatório - Desafio 01: Ficha Secreta
