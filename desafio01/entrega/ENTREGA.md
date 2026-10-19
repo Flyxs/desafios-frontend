@@ -1,7 +1,3 @@
-### 📝 Relatório ENTREGA.md
-
----
-
 # Relatório - Desafio 01: Ficha Secreta
 **Equipe:** [Nome 1], [Nome 2], (opcional: [Nome 3])
 **Data do Relatório:** 
