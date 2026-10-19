@@ -1,8 +1,8 @@
-# Desafios Semanais: Trilha Backend
+# Orc Desafios: Trilha Front-end
 
-Orc'estra Gamificação | Trilha Backend
+Orc'estra Gamificação | Trilha Front-end
 
-Este repositório reúne os **desafios semanais da trilha de Front-end**. Toda semana aparece aqui uma pasta nova com o enunciado do desafio. Você resolve no **seu fork** e entrega por **Pull Request (PR)**.
+Este repositório reúne os **desafios da trilha de Front-end**. Ao final de um desafio, aparece aqui uma pasta nova com o enunciado de um novo. Você resolve no **seu fork** e entrega por **Pull Request (PR)**.
 
 ```
 <repositorio>/
@@ -20,9 +20,9 @@ Este repositório reúne os **desafios semanais da trilha de Front-end**. Toda s
 | Etapa | Quando | O que você faz |
 |---|---|---|
 | **Fork** | Uma única vez | Cria a sua cópia do repositório no seu GitHub |
-| **Sincronizar** | Toda semana, antes de começar | Traz para o seu fork a pasta do desafio novo |
-| **Resolver** | Toda semana | Cria uma branch e resolve dentro da pasta do desafio |
-| **Entregar** | Toda semana | Abre um Pull Request do seu fork para este repositório |
+| **Sincronizar** | Início de um novo desafio | Traz para o seu fork a pasta do desafio novo |
+| **Resolver** | Início de um novo desafio | Cria uma branch e resolve dentro da pasta do desafio |
+| **Entregar** | Final de um desafio | Abre um Pull Request do seu fork para este repositório |
 
 **Regra de ouro:** a `main` do seu fork deve ficar **idêntica** à `main` deste repositório. Você nunca trabalha nela. Todo trabalho acontece em uma **branch**.
 
